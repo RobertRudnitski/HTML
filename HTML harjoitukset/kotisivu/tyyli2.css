@@ -53,7 +53,9 @@ h2 {
 article {
     width: 1310px;
     background: #B5C0EB;
+    color:#fff;
 }
+
 
 
 
@@ -69,6 +71,12 @@ aside {
     background: #8592ED;
     float: right;
     margin-top: -1px;
+}
+sivu{
+
+    width: 480px;
+    padding-left: 20px;
+    height: 500px
 }
 
 
@@ -98,4 +106,8 @@ footer {
 
     footer p {
         padding: 10px 0 0 10px;
+    }
+
+    body{
+        background: #168aad
     }
