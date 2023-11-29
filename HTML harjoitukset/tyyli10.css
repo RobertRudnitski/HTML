@@ -1,0 +1,31 @@
+﻿body {
+    front-size: 24px;
+}
+
+
+
+#eka {
+    float: left;
+}
+
+
+
+#toka {
+    clear: both;
+    float: rights;
+}
+
+
+
+table {
+    border: 1px solid black;
+}
+
+th, td {
+    text-align: left;
+    padding: 0px 10px;
+}
+
+text {
+    text-align-last: auto
+}
