@@ -1,0 +1,33 @@
+body  {
+    width: 60%;
+    margin: auto;
+}
+
+header{
+    background-color:beige;
+    text-align:center;
+}
+nav{
+    font-size:20px;
+}
+#Rays {
+    width:100%;
+    
+}section{
+    
+     width:60%;
+     float:left;
+ }
+main, article, section {
+    background-color: beige;
+    align-items: normal ;
+}
+aside {
+    width: 30%;
+    float: right;
+    /*background-color: #808080;*/
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 30px;
+    background-color: beige;
+}
