@@ -1,0 +1,75 @@
+body  {
+    width: 60%;
+    margin: auto;
+}
+
+header{
+    background-color:beige;
+    text-align:left;
+    
+}
+
+nav{
+    font-size:30px;
+    text-align:right;
+}
+
+#Rays {
+    width:100%;
+    
+}
+section{
+    
+     width:60%;
+     float:left;
+     
+ }
+main, article, section {
+    background-color: beige;
+    align-items: normal ;
+}
+aside {
+    width: 30%;
+    float: right;
+    /*background-color: #808080;*/
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 30px;
+    background-color: beige;
+}
+.rivi {
+    display: flex;
+}
+.sarake {
+    flex: 50%;
+}
+.JPL {
+    font-family: cursive;
+    font-size:50px
+}
+.Head {
+    font-family: cursive;
+    font-size:20PX;
+}
+#Kala {
+
+}
+footer {
+    margin-top: 20px;
+    display: table;
+    clear: both;
+}
+.keski {
+    width: 400px;
+    margin: auto;
+    padding-left: 70px;
+    margin-right: -50px;
+}
+div img {
+    height: 100px;
+}
+#Nappi {
+    display: block;
+    margin: -10px auto;
+    float:right;
+}
