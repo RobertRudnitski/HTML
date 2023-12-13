@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+
+.Img1, .Img2, .Img3, .Img4 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Img1 {
+    background-image: url('img1.jpg');
+    min-height: 600px ;
+}
+.Img2 {
+    background-image: url('img2.jpg');
+    min-height: 600px;
+}
+.Section {
+    background-color: #282e34;
+    color: #ddd;
+    text-align: center;
+    padding: 50px 80px;
+}
+.Img3 {
+    background-image: url('img3.jpg');
+    min-height: 600px;
+}
+.Box {
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+.Text {
+    text-align:center;
+}
+.Section {
+    background-color: #282e34;
+    color: #ddd;
+}
+.Box {
+    text-align:center;
+}
+.Back {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+@media only screen and (max-device-width: 568px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+.Img4 {
+    background-image: url('img4.jpg');
+    min-height: 700px;
+}
+.Box1 {
+    font-family: 'Zhi Mang Xing', cursive;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
